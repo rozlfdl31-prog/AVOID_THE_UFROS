@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
-//  테스트 수정
 public class PlayerController : MonoBehaviour
 {
     public float maxSpeed = 5f;
