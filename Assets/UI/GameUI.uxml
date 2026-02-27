@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; justify-content: space-between; padding: 20px;">
+        <ui:VisualElement style="flex-direction: row; justify-content: flex-end;">
+            <ui:Label name="ScoreLabel" text="Score: 0" style="font-size: 30px; color: white; -unity-font-style: bold;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="align-items: center; justify-content: center; position: absolute; left: 0; right: 0; top: 0; bottom: 0;">
+            <ui:Label name="HighScoreLabel" text="High Score: 0" style="font-size: 40px; color: yellow; -unity-font-style: bold; margin-bottom: 20px; display: none;" />
+            <ui:Button name="RestartButton" text="Restart" style="font-size: 30px; padding: 10px 30px; display: none; background-color: rgb(200, 50, 50); color: white;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
